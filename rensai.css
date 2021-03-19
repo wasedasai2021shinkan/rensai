@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* 共通部分 */
+html{
+  font-size: 100%;
+}
+
+body {
+  font-family: serif;
+  background-color: #EAF4FC;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+/* ヘッダー */
+header {
+  height: 60px;
+  width: 100%;
+  padding: 0px 0px;
+  background-color:#78c1cd;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+}
+
+
+.lili:hover{
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+
+}
+
+.logo1 {
+  font-size: 25px;}
+  
+  .hedlogo{
+height:55px;
+width:55px;
+margin-left:6px;
+  }
+  
+
+.hedlogo:hover  {
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+ 
+}
+ .navi{
+  margin: 0 0 0 auto;
+}
+
+.lists {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listwords {
+  color: #eaf4fc;
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  padding: 0 20px;
+}
+
+.sm {
+  display: none;
+}
+.toppagelogo{
+  height:500px;
+  width:500px;
+  padding:400px;
+margin:0 auto;
+}
+
+/* フッター */
+footer {
+  background-color: #78c1cd;
+  text-align: center;
+  padding: 26px 0;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: serif;
+}
+.wrapper2 {
+  background-color: #78c1cd;
+}
+
+
+.innerbox {
+  margin-top: 5px;
+  background-color: #78c1cd;
+  text-align: center;
+  width: 450px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
+}
+
+.footerlogo{
+  margin-top: 5px;
+}
